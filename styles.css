@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  margin: 0 5%;
+}
+
+button {
+  width: fit-content;
+}
+
+p {
+  margin: 0;
+}
+
+.search-area {
+  background-color: #eeeeee;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.footer-search {
+  width: 37%;
+  background-color: #7ee5da;
+}
+
+.footer-links {
+  width: 26%;
+  background-color: #70ccc2;
+}
+
+.footer-details {
+  width: 37%;
+  background-color: #62b3aa;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
