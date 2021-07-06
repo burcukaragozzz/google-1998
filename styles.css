@@ -15,23 +15,23 @@ p {
   background-color: #eeeeee;
 }
 
-footer {
+.links-container {
   display: flex;
   width: 100%;
   margin-top: 5px;
 }
 
-.footer-search {
+.links-container .search {
   width: 37%;
   background-color: #7ee5da;
 }
 
-.footer-links {
+.links-container .links {
   width: 26%;
   background-color: #70ccc2;
 }
 
-.footer-details {
+.links-container .details {
   width: 37%;
   background-color: #62b3aa;
 }
@@ -42,4 +42,9 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 5px;
+}
+
+.copyright-text {
+  margin-top: 15px;
+  font-size: 12px;
 }
